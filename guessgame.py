@@ -19,7 +19,7 @@ def guessgame():
 
         myName = input()
         print("Hello"+myName+" ,I am thinking a number between 1 to 100")
-        number=random.randint(1,10)
+        number=random.randint(1,100)
 
         count = 0
         while True:
@@ -36,7 +36,7 @@ def guessgame():
                 print()
             if guessNumber == number:
                 count = str(count)
-                print("Good job" + myName + ",You guessed my Number in " + count + " guessed!")
+                print("Good job! " + myName + ",You guessed my Number in " + count + " guessed!")
                 print()
                 break
 
